@@ -20,6 +20,8 @@ def won?(board)
        return win_combination
      elsif empty?(board)
        return false
+     elsif !empty?(board)
+       return false
     end
   end
 end
