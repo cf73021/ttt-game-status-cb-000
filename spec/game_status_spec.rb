@@ -106,7 +106,7 @@ describe "./lib/game_status.rb" do
     end
 
     it 'returns false for a won game diagonaly' do
-      board = ["X", "O", "X", "O", "X", " ", "O", "O", "X"]
+      board = ["X", "O", "X", "O", "X", "O", "O", "O", "X"]
 
       expect(draw?(board)).to be_falsey
     end
