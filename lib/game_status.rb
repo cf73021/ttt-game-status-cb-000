@@ -22,7 +22,7 @@ def won?(board)
        break
      elsif empty?(board)
        return false
-     elsif full?(board)
+     elsif draw?(board)
        return false
     end
   end
